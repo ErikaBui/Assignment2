@@ -68,7 +68,6 @@ public class MorseCode {
         // array exempel innehåll:
         // ["*-*", "-", "*"]
         var inputArray = input.split(" ");
-
         String decodedString = "";
 
         for (int i = 0; i < inputArray.length; i++) {
@@ -86,7 +85,6 @@ public class MorseCode {
 
     public String Encode(String input) {
         var inputArray = input.split("");
-
         String encodedString = "";
 
         for (int i = 0; i < inputArray.length; i++) {

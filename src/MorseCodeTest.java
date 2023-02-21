@@ -7,35 +7,28 @@ public class MorseCodeTest {
         // Arrange
         MorseCode morseCode = new MorseCode();
         String expected = "";
-
-
         // Act
         String actual = morseCode.handleInput("");
-
         //Assert
         assertEquals(expected, actual);
     }
     @Test
-    public void MorseCodeInput() {
+    public void Decode() {
         // Arrange
         MorseCode morseCode = new MorseCode();
         String expected = "HEJ";
-
         // Act
         String actual = morseCode.handleInput("**** * *---");
-
         //Assert
         assertEquals(expected, actual);
     }
     @Test
-    public void EndCode() {
+    public void Encode() {
         // Arrange
         MorseCode morseCode = new MorseCode();
         String expected = "*";
-
         // Act
         String actual = morseCode.handleInput("E");
-
         //Assert
         assertEquals(expected, actual);
     }

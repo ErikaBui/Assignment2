@@ -6,7 +6,7 @@ public class Main {
 
         boolean isRunning = true;
         while (isRunning) {
-            System.out.println("Skriv något: ");
+            System.out.println("Skriv något antingen på morsekod eller engelska: ");
             Scanner scan = new Scanner(System.in);
             String input = scan.nextLine();
 
